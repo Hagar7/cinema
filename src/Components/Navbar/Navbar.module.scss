@@ -1,0 +1,40 @@
+@import '../../index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Space+Mono:ital@1&family=Xanh+Mono:ital@1&display=swap');
+
+
+.bgNavbar{
+    background-color: $lightBgColor;
+    .brand{
+        color:#ffcc00 !important;
+        font-family:  'Dancing Script', cursive;
+        font-size: 24px;
+    }
+   
+}
+.toggy{
+    background-color: #eee !important;
+}
+
+
+@media screen and (max-width:767px){
+    .imp{
+        flex-direction: column;
+       
+    }
+   .socialMedia i{
+    margin-top: 15px !important;
+    margin-bottom: 10px;
+   }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .imp{
+        flex-direction: column;
+       
+    }
+   .socialMedia i{
+    margin-top: 15px !important;
+    margin-bottom: 10px;
+   }
+}
