@@ -133,7 +133,7 @@ export default function Login() {
             )}
           </div>
           <button className="myBtn btn btn-danger my-3 float-end">
-            Register
+            Log In
           </button>
           <div className="clear-fix"></div>
         </form>
